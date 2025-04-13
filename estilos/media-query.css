@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+/*Todas as demais mídias*/
+
+
+/* Typical Device Breakpoints 
+-----------------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet : de a 768px até 992px
+Desktop: de 992px até 1200px
+Grandes telas: acima de 1200px*/
+
+/*
+    Paleta de Cores
+    Preto : #0D0D0D
+    Azul : #010B40
+    Azul Escuro : #010326
+    Lilas : #6A618C 
+    Rosa : #A6808A
+*/
+:root {
+    --cor001: #0D0D0D;
+    --cor002: #010B40;
+    --cor003: #010326;
+    --cor004: #6A618C;
+    --cor005: #A6808A;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    body {
+    --cor002: #010B40;
+    --cor002: #010B40;
+    background-image: linear-gradient(to top , #A6808A, #6A618C, #010326, #010B40 );
+    }
+    section#login {
+        width: 80vw;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        width: 30vw;
+        height: 100vh;
+       background-position: top right; 
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 60%;
+    }
+}
+
+
+@media screen and (min-width: 950px) {
+    body {
+        --cor002: #010B40;
+        --cor002: #010B40;
+        background-image: linear-gradient(to top , #A6808A, #6A618C, #010326, #010B40 );
+        }
+    section#login {
+        width: 950px;
+    }
+    section#login > div#imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+        background-position: top right;
+    }
+    section#login > div#formulario {
+        float: right;
+        width: 50%;
+    }
+}
