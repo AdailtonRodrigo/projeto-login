@@ -28,7 +28,7 @@ Grandes telas: acima de 1200px*/
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    
+    /* Configuraçâo para tablet */
     body {
     --cor002: #010B40;
     --cor002: #010B40;
@@ -36,6 +36,7 @@ Grandes telas: acima de 1200px*/
     }
     section#login {
         width: 80vw;
+        height: 280px;
     }
 
     section#login > div#imagem {
@@ -61,6 +62,7 @@ Grandes telas: acima de 1200px*/
 
     section#login {
         width: 950px;
+        height: 350px;
     }
 
     section#login > div#imagem {
@@ -80,7 +82,8 @@ Grandes telas: acima de 1200px*/
     }
 
     div#formulario >p{
-        font-size: 1.3em;
+        margin: 20px 0px;
+        font-size: 1.0em;
     }
     
 }
